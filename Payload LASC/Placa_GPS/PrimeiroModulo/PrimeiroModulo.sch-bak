@@ -1,0 +1,68 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 4200 2550 2    50   Input ~ 0
+Vcc
+Text GLabel 4200 2850 2    50   Input ~ 0
+Gnd
+Text GLabel 4200 2650 2    50   Input ~ 0
+RX
+Text GLabel 4200 2750 2    50   Input ~ 0
+TX
+NoConn ~ 4200 3050
+NoConn ~ 4200 3150
+NoConn ~ 4200 3250
+$Comp
+L Connector:Conn_01x04_Female GPS1
+U 1 1 5F7DA268
+P 4000 2750
+F 0 "GPS1" H 3900 2300 50  0000 C CNN
+F 1 "Con" H 3900 2400 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Horizontal" H 4000 2750 50  0001 C CNN
+F 3 "~" H 4000 2750 50  0001 C CNN
+	1    4000 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female Suporte1
+U 1 1 5F7DBCD1
+P 4000 3150
+F 0 "Suporte1" H 3900 3400 50  0000 C CNN
+F 1 "Con" H 3900 3500 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal" H 4000 3150 50  0001 C CNN
+F 3 "~" H 4000 3150 50  0001 C CNN
+	1    4000 3150
+	-1   0    0    1   
+$EndComp
+Text GLabel 4800 2550 2    50   Input ~ 0
+Vcc
+Text GLabel 4800 2850 2    50   Input ~ 0
+Gnd
+Text GLabel 4800 2650 2    50   Input ~ 0
+RX
+Text GLabel 4800 2750 2    50   Input ~ 0
+TX
+$Comp
+L Connector:Conn_01x04_Female GPS2
+U 1 1 5F7E3809
+P 4600 2650
+F 0 "GPS2" H 4500 3000 50  0000 C CNN
+F 1 "Con" H 4500 2900 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 4600 2650 50  0001 C CNN
+F 3 "~" H 4600 2650 50  0001 C CNN
+	1    4600 2650
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC
